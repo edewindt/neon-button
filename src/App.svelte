@@ -100,37 +100,4 @@ main{
     position: relative;
     cursor: pointer;
 }
-.butt-red{
-    font-size: 2rem;
-    background-color: transparent;
-    color: orangered;
-    border:solid .125em orangered;
-    padding:.3em;
-    border-radius:15%;
-    position: relative;
-    cursor: pointer;
-}
-.butt-red:hover.butt-red::before{
-    content: '';
-    position: absolute;
-    background-color: orangered;
-    top: 120%;
-    width: 100%;
-    height: 100%;
-    transform: perspective(1em) rotateX(30deg) scale(1, .5);
-    filter: blur(1em);
-    pointer-events: none;
-}
-.butt-red:hover{
-    font-size: 2rem;
-    background-color: transparent;
-    color: orangered;
-    border:solid .125em orangered;
-    padding:.3em;
-    border-radius:15%;
-    text-shadow: 0 0 .25em rgb(250, 86, 16), 0 0 .30em orangered;
-    box-shadow: inset 0 0 .30em orangered, 0 0 .30em orangered;
-    position: relative;
-    cursor: pointer;
-}
 </style>
